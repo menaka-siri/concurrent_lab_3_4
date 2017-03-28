@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CSE/Sem_8/Concurrent/Labs/Lab_3_4/sequential_multiplication.cpp
+iostream
+-
+cstdlib
+-
+time.h
+-
+chrono
+-
+support_functions.h
+D:/CSE/Sem_8/Concurrent/Labs/Lab_3_4/support_functions.h
+random
+-
+
+D:/CSE/Sem_8/Concurrent/Labs/Lab_3_4/support_functions.h
+iostream
+-
+algorithm
+-
+time.h
+-
+
