@@ -33,8 +33,8 @@
 
 #Idea directories
 .idea
-/Lab_1/cmake-build-debug
+/Lab_3_4/cmake-build-debug
 *.orig
 *.iml
 .idea
-Lab_1/github_link.txt
+Lab_3_4/github_link.txt

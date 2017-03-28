@@ -65,6 +65,12 @@ int main(int argc, char *argv[]) {
     cout << "Average:\t\t" << scal.calculateMean() << "s" << endl;
     cout << "Standard Deviation:\t" << scal.getStandardDeviation() << "s" << endl;
 
+    double required_accuracy = 5.0;
+    double z = 1.960 ; //z value confidence_level of 95%
+    int sample_count= (100 * 1.960 * scal.getStandardDeviation())/(required_accuracy* scal.calculateMean());
+
+    cout << "Required no. of samples:\t" << sample_count << endl;
+
     return 0;
 
 }
