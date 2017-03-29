@@ -18,9 +18,10 @@ int main(int argc, char *argv[]) {
 	
     //srand ( time(NULL) );
     int n = 0;
-    int program_iterations = 0; //number of program iterations
+    int program_iterations = 20; //number of program iterations
     cout<<"Enter number of executions:";
     cin>>program_iterations;
+
     cout<<"Enter size of the matrix:";
     cin>>n;
 
@@ -60,7 +61,7 @@ int main(int argc, char *argv[]) {
     cout<< "\n\n";
     cout << "Program iterations:\t" << program_iterations << endl;
     // cout << "Thread count:\t\t" << thread_count << endl;
-    cout << "Initial values:\t\t" << n << endl;
+    // cout << "Initial values:\t\t" << n << endl;
     cout << "Total time elapsed:\t" << scal.calculateSum() << "s" << endl;
     cout << "Average:\t\t" << scal.calculateMean() << "s" << endl;
     cout << "Standard Deviation:\t" << scal.getStandardDeviation() << "s" << endl;
