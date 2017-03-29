@@ -32,9 +32,8 @@
 *.app
 
 #Idea directories
-.idea
-/Lab_3_4/cmake-build-debug
+.idea/
+cmake-build-debug/
 *.orig
 *.iml
-.idea
-Lab_3_4/github_link.txt
+
